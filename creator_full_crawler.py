@@ -172,10 +172,10 @@ class CreatorFullCrawler:
             self.logger.info(f"使用账号: {self.account_name} ({self.login_email})")
         else:
             # 使用默认账号
-            self.login_email = "tiktokshopinfoundtest@gmail.com"
-            self.login_password = "fyvbyn-hyctu0-Rafqyp"
-            self.gmail_username = "tiktokshopinfoundtest@gmail.com"
-            self.gmail_app_password = "cfhlfedjqhfbbbhb"
+            self.login_email = ""
+            self.login_password = ""
+            self.gmail_username = ""
+            self.gmail_app_password = ""
             self.account_name = "默认账号"
             self.account_id = -1
             self.account_uuid = ""
